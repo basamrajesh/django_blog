@@ -1,0 +1,18 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        {% for book in books %}
+        <div class="col">
+            <h3> {{ book.title }} </h3>
+            <h4> {{book.author}} </h4>
+            <p> {{book.snippet}} </p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% endblock content %}
