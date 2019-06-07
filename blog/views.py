@@ -37,3 +37,7 @@ def home(request):
     #     'books': books
     # }
     return render(request, 'blog/home.html', context={'books': books})
+
+
+def about(request):
+    return render(request, 'blog/about.html')
