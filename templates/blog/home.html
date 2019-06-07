@@ -2,14 +2,22 @@
 
 {% block content %}
 
-<div class="container">
-    <div class="row">
-        {% for book in books %}
-        <div class="col-md-4">
-            <h3> {{ book.title }} </h3>
-            <h4> {{book.author}} </h4>
-            <p> {{book.snippet}} </p>
+<div class="container" >
+    <div class="row" >
+        {% for post in posts %}
+        <div class="col-md-6">
+            <div class="card" style="margin-top: 10px;" >
+                <div class="card-body">
+                    <h5 class="card-title">{{ post.title }}</h5>
+                    <p class="card-subtitle mb-2 text-muted">created by {{post.author}}</p>
+                    <p class="card-subtitle mb-2 text-muted">published on {{post.date_posted}}</p>
+                    <p class="card-text">{{post.content}}</p>
+                    {% comment %} <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a> {% endcomment %}
+                </div>
+            </div>
         </div>
+        
         {% endfor %}
     </div>
 </div>
