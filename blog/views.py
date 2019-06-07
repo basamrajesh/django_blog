@@ -18,6 +18,11 @@ books = [
         'title': "My Third Book",
         'author': "Basam Rajesh",
         'snippet': "Abaha em rasav raa nayana book bhale undi ani anta anukunnav kada"
+    },
+    {
+        'title': "My Fourth Book",
+        'author': "Basam Rajesh Chowdary",
+        'snippet': "Abaha em rasav raa nayana book bhale undi ani anta anukunnav kada tokkale"
     }
 ]
 
