@@ -3,6 +3,7 @@
 import os
 import sys
 
+#add
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blogcorey.settings')
