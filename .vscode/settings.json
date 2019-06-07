@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "files.autoSave": "onWindowChange",
+    "files.autoGuessEncoding": true,
+    "files.defaultLanguage": "python"
+}

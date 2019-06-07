@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 books = [
     {
-        'title': "My First Book",
+        'title': "My First Book Bro",
         'author': "Basam",
         'snippet': "Abaha em rasav raa nayana book bhale undi"
     },

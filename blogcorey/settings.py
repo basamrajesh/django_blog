@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'blogcorey.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'coreyblog',
+        'USER': 'root',
+        'PASSWORD': 'iamlegend@11',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
